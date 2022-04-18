@@ -1,9 +1,9 @@
-﻿using MailKit.Net.Smtp;
+﻿using System.Threading.Tasks;
+using MailKit.Net.Smtp;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.Extensions.Options;
 using MimeKit;
 using MimeKit.Text;
-using System.Threading.Tasks;
 
 namespace NetAngular.Services
 {

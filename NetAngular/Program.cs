@@ -1,18 +1,12 @@
-using System;
+﻿using System;
 using System.IO;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Serilog;
-using Serilog.Sinks.MSSqlServer.Sinks.MSSqlServer.Options;
-using Serilog.Events;
-using Serilog.Sinks.MSSqlServer;
-using SendGrid.Helpers.Mail;
 using SendGrid;
+using SendGrid.Helpers.Mail;
+using Serilog;
 
 namespace NetAngular
 {

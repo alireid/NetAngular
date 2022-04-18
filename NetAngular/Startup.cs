@@ -1,7 +1,10 @@
+﻿using System;
 using Microsoft.AspNetCore.Authentication;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.HttpOverrides;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.SpaServices.AngularCli;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -9,10 +12,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using NetAngular.Data;
 using NetAngular.Data.Models;
-using Microsoft.AspNetCore.Identity.UI.Services;
 using NetAngular.Services;
-using System;
-using Microsoft.AspNetCore.HttpOverrides;
 using Serilog;
 
 

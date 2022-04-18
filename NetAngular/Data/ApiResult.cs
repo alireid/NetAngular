@@ -1,11 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 using System.Linq.Dynamic.Core;
 using System.Reflection;
-using System.Text.Json.Serialization;
+using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace NetAngular.Data
 {

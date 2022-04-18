@@ -1,17 +1,17 @@
 ﻿using System;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using NetAngular.Data;
-using OfficeOpenXml;
+using System.Collections.Generic;
 using System.IO;
+using System.Linq;
+using System.Security;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
-using NetAngular.Data.Models;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Hosting;
-using System.Security;
-using Microsoft.AspNetCore.Identity;
-using System.Collections.Generic;
+using NetAngular.Data;
+using NetAngular.Data.Models;
+using OfficeOpenXml;
 
 namespace NetAngular.Controllers
 {
