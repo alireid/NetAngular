@@ -1,0 +1,91 @@
+﻿<div class="food-edit">
+    <h1>{{title}}</h1>
+
+    <p *ngIf="this.id && !food"><em>Loading...</em></p>
+
+    <div class="form" [formGroup]="form" (ngSubmit)="onSubmit()">
+
+        <div *ngIf="form.invalid && form.errors?.isDupeFood"
+             class="alert alert-danger">
+              <strong>ERROR</strong>:
+              A food with the same <i>name</i>, <i>lat</i>,
+              <i>lon</i> and <i>country</i> already exists.
+        </div>
+      
+        <div class="form-group">
+            <label for="name">Food name:</label>
+            <br />
+            <input type="text" id="name"
+                formControlName="name" required
+                placeholder="Food name..."
+                class="form-control"
+                />
+
+            <div *ngIf="hasError('name')"
+                 class="invalid-feedback">
+                <div *ngIf="form.get('name').errors?.required">
+                  Name is required.
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="form-group commands">
+            <button *ngIf="id" type="submit"
+                    (click)="onSubmit('create')"
+                    [disabled]="form.invalid"
+                    class="btn btn-success">
+                Save
+            </button>
+            <button *ngIf="!id" type="submit"
+                    (click)="onSubmit('add')"
+                    [disabled]="form.invalid"
+                    class="btn btn-success">
+                Create
+            </button>
+            <button *ngIf="id" type="submit"
+                    (click)="onSubmit('del')"
+                    [disabled]="form.invalid"
+                    data-type="delete" 
+                    class="btn btn-danger"
+                    >
+                Delete
+            </button>
+            <button type="button"
+                    [routerLink]="['/foods']"
+                    class="btn">
+                Cancel
+            </button>
+        </div>
+    </div>
+</div>
+
+<!-- Form debug info panel -->
+<div class="card bg-light mb-3">
+  <div class="card-header">Form Debug Info</div>
+  <div class="card-body">
+    <div class="card-text">
+      <div><strong>Form value:</strong></div>
+      <div class="help-block">
+          {{ form.value | json }}
+      </div>
+      <div class="mt-2"><strong>Form status:</strong></div>
+      <div class="help-block">
+          {{ form.status | json }}
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Form activity log panel -->
+<div class="card bg-light mb-3">
+  <div class="card-header">Form Activity Log</div>
+  <div class="card-body">
+    <div class="card-text">
+      <div class="help-block">
+        <span *ngIf="activityLog" 
+            [innerHTML]="activityLog"></span>
+      </div>
+    </div>
+  </div>
+</div>
