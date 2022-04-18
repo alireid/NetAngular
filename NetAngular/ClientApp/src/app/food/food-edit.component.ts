@@ -150,15 +150,15 @@ export class FoodEditComponent
         
         console.log(type);
 
-        this.foodService
-          .delete<Food>(food)
-          .subscribe(result => {
+       // this.foodService
+        //  .delete<Food>(food)
+         // .subscribe(result => {
 
-            console.log("Food " + food.id + " has been deleted.");
+           // console.log("Food " + food.id + " has been deleted.");
 
             // go back to food view
-            this.router.navigate(['/foods']);
-          }, error => console.error(error));
+          //  this.router.navigate(['/foods']);
+         // }, error => console.error(error));
 
       }
 

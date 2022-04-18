@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/allyreid/Desktop/NetAngular/NetAngular/NetAngular.csproj": {}
+    "/Users/allyreid/Documents/Projects/NetAngular/NetAngular/NetAngular.csproj": {}
   },
   "projects": {
-    "/Users/allyreid/Desktop/NetAngular/NetAngular/NetAngular.csproj": {
+    "/Users/allyreid/Documents/Projects/NetAngular/NetAngular/NetAngular.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/allyreid/Desktop/NetAngular/NetAngular/NetAngular.csproj",
+        "projectUniqueName": "/Users/allyreid/Documents/Projects/NetAngular/NetAngular/NetAngular.csproj",
         "projectName": "NetAngular",
-        "projectPath": "/Users/allyreid/Desktop/NetAngular/NetAngular/NetAngular.csproj",
+        "projectPath": "/Users/allyreid/Documents/Projects/NetAngular/NetAngular/NetAngular.csproj",
         "packagesPath": "/Users/allyreid/.nuget/packages/",
-        "outputPath": "/Users/allyreid/Desktop/NetAngular/NetAngular/obj/",
+        "outputPath": "/Users/allyreid/Documents/Projects/NetAngular/NetAngular/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0KrhKfC2vigkL84sUyT1UhjrQn6j4mgoaGsG67UZIjd151cwUPsDZGUBa0/1+fKrIUiP5hsz/yAxzyuZuEHYzg==",
+  "dgSpecHash": "ao5MTZTBxGGA5Pn1O0zXh086A092f8f1jAtKIX0L4jzpNqDCUft2ccaNN4ymBL2Ov90WhKYRouF202cwe5St0g==",
   "success": true,
-  "projectFilePath": "/Users/allyreid/Desktop/NetAngular/NetAngular/NetAngular.csproj",
+  "projectFilePath": "/Users/allyreid/Documents/Projects/NetAngular/NetAngular/NetAngular.csproj",
   "expectedPackageFiles": [
     "/Users/allyreid/.nuget/packages/automapper/10.0.0/automapper.10.0.0.nupkg.sha512",
     "/Users/allyreid/.nuget/packages/epplus/4.5.3.3/epplus.4.5.3.3.nupkg.sha512",
