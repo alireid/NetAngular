@@ -1,13 +1,11 @@
 ﻿<Properties StartupConfiguration="{55764BDF-9E98-4453-A046-B631089D4B25}|Default">
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.NetAngular PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="NetAngular/Startup.cs">
-    <Files>
-      <File FileName="NetAngular/ClientApp/src/app/countries/country.ts" Line="8" Column="1" />
-      <File FileName="NetAngular/ClientApp/src/app/countries/country.service.ts" Line="26" Column="38" />
-      <File FileName="NetAngular/ClientApp/src/app/app-routing.module.ts" Line="29" Column="18" />
-      <File FileName="NetAngular/Startup.cs" Line="22" Column="6" />
-    </Files>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
@@ -15,10 +13,11 @@
             <Node name="NetAngular" expanded="True">
               <Node name="ClientApp" expanded="True">
                 <Node name="src" expanded="True">
-                  <Node name="app" expanded="True" />
+                  <Node name="api-authorization" expanded="True">
+                    <Node name="api-authorization.constants.ts" selected="True" />
+                  </Node>
                 </Node>
               </Node>
-              <Node name="Controllers" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -28,9 +27,5 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.NetAngular PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
 </Properties>

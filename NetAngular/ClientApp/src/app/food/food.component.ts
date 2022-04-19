@@ -18,7 +18,7 @@ import { ApiResult } from '../base.service';
 })
 export class FoodComponent implements OnInit {
   public displayedColumns: string[] = ['id', 'name'];
-  public cities: MatTableDataSource<Food>;
+  public food: MatTableDataSource<Food>;
 
   defaultPageIndex: number = 0;
   defaultPageSize: number = 10;
@@ -92,7 +92,7 @@ export class FoodComponent implements OnInit {
         this.paginator.length = result.totalCount;
         this.paginator.pageIndex = result.pageIndex;
         this.paginator.pageSize = result.pageSize;
-        this.cities = new MatTableDataSource<Food>(result.data);
+        this.food = new MatTableDataSource<Food>(result.data);
       }, error => console.error(error));
   }
 }

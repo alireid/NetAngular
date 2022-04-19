@@ -4,7 +4,7 @@
 
 <p *ngIf="!food"><em>Loading...</em></p>
 
-<div class="commands text-right" *ngIf="cities">
+<div class="commands text-right" *ngIf="food">
     <button type="button"
             [routerLink]="['/food']"
             class="btn btn-success">
@@ -12,18 +12,18 @@
     </button>
 </div>
 
-<mat-form-field [hidden]="!cities">
+<mat-form-field [hidden]="!food">
     <input matInput (keyup)="onFilterTextChanged($event.target.value)"
            placeholder="Filter by name (or part of it)...">
 </mat-form-field>
 
-<table mat-table [dataSource]="cities" class="table-striped mat-elevation-z8" [hidden]="!cities"
+<table mat-table style="width:100%" [dataSource]="food" class="table-striped mat-elevation-z8" [hidden]="!food"
        matSort (matSortChange)="loadData()"
        matSortActive="{{defaultSortColumn}}" matSortDirection="{{defaultSortOrder}}">
 
     <!-- Id Column -->
     <ng-container matColumnDef="id">
-        <th mat-header-cell *matHeaderCellDef mat-sort-header>ID</th>
+        <th mat-header-cell *matHeaderCellDef mat-sort-header style="width:10%">ID</th>
         <td mat-cell *matCellDef="let food"> {{food.id}} </td>
     </ng-container>
 
