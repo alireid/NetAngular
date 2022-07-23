@@ -1,7 +1,6 @@
 ﻿<Properties StartupConfiguration="{55764BDF-9E98-4453-A046-B631089D4B25}|Default">
-  <MonoDevelop.Ide.ItemProperties.NetAngular PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="NetAngular/ClientApp/src/app/food/food.component.ts">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="NetAngular/Controllers/CountriesController.cs">
     <Files>
       <File FileName="NetAngular/ClientApp/src/api-authorization/authorize.guard.ts" Line="14" Column="15" />
       <File FileName="NetAngular/ClientApp/src/api-authorization/login/login.component.html" Line="1" Column="18" />
@@ -10,7 +9,9 @@
       <File FileName="NetAngular/ClientApp/src/app/food/food-edit.component.ts" Line="1" Column="1" />
       <File FileName="NetAngular/ClientApp/src/app/food/food.ts" Line="1" Column="1" />
       <File FileName="NetAngular/ClientApp/src/app/food/food.component.ts" Line="7" Column="32" />
-      <File FileName="NetAngular/ClientApp/src/app/food/food.service.ts" Line="1" Column="1" />
+      <File FileName="NetAngular/ClientApp/src/app/food/food.service.ts" Line="25" Column="45" />
+      <File FileName="NetAngular/ClientApp/src/app/base.service.ts" Line="1" Column="1" />
+      <File FileName="NetAngular/Controllers/CountriesController.cs" Line="149" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -20,7 +21,16 @@
               <Node name="Dependencies" expanded="True">
                 <Node name="PackageDependencies" expanded="True" />
               </Node>
-              <Node name="ClientApp" expanded="True" />
+              <Node name="ClientApp" expanded="True">
+                <Node name="src" expanded="True">
+                  <Node name="app" expanded="True">
+                    <Node name="food" expanded="True">
+                      <Node name="food.ts" expanded="True" />
+                    </Node>
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="Controllers" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -30,8 +40,9 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.NetAngular PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
